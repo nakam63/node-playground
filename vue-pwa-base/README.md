@@ -4,7 +4,13 @@ Android端末へのpush通知を想定しているため、FCM(Firebase Cloud Me
 
 ## Environment setup
 
-1. Run server.  
+1. Connect docker container.
+    ``` docker exec -it <container_id> ash ```
+
+2. Install npm module.
+    ``` npm install ```
+
+3. Run server.  
     ``` npm run serve ```
 
-2. Connect `http://localhost:8080`.
+4. Connect `http://localhost:8080`.
