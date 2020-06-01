@@ -1,24 +1,10 @@
 # vue-pwa-base
+vue.jsのPWAベース。
+Android端末へのpush通知を想定しているため、FCM(Firebase Cloud Messaging)周りの設定済み。
 
-## Project setup
-```
-yarn install
-```
+## Environment setup
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+1. Run server.
+    ``` npm run serve ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. Connect `http://localhost:8080`.
